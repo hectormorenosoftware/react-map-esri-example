@@ -3,17 +3,32 @@ import { withRouter } from "react-router-dom";
 const token =
   "pk.eyJ1IjoiaG1zb2Z0d2FyZSIsImEiOiJja3dhdTVrajkzc3MxMzFsdDlmY3lyNmxlIn0.42tPdvzfSOmjptJzkrrNvA";
 const locations = [
-  ["LOCATION_1", 11.8166, 122.0942],
-  ["LOCATION_2", 11.9804, 121.9189],
-  ["LOCATION_3", 10.7202, 122.5621],
-  ["LOCATION_4", 11.3889, 122.6277],
-  ["LOCATION_5", 10.5929, 122.6325],
+  [
+    "Marine Corps Base Camp Pendleton California </br> Enlisted Marines: 250,000 </br> Marine Officers: 12,400 </br> Tank Count: 487,550 </br> F18 Count: 124,987 </br> ",
+    33.291687,
+    -117.392729,
+  ],
+  [
+    "Marine Corps Base Quantico Virginia </br> Enlisted Marines: 158,000 </br> Marine Officers: 7,534 </br> Tank Count: 48,550 </br> F18 Count: 24,987 </br> ",
+    38.5109,
+    -77.309504,
+  ],
+  [
+    "Marine Corps Base Cample Lejeune North Carolina </br> Enlisted Marines: 175,980 </br> Marine Officers: 5,759  </br> Tank Count: 98,550 </br> F18 Count: 44,987 </br> ",
+    34.5836,
+    -77.3604,
+  ],
+  [
+    "U.S. Marine Corps Barracks </br> Washington D.C. </br> Enlisted Marines: 850 </br> Marine Officers: 48 ",
+    38.879487,
+    -76.994518,
+  ],
 ];
 var marker = null;
 
 class Map extends React.PureComponent {
   componentDidMount() {
-    var map = L.map("map").setView([10.53852, 122.558085], 10);
+    var map = L.map("map").setView([33.095573, -117.276542], 10);
     L.tileLayer(
       `https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=${token}`,
       {
