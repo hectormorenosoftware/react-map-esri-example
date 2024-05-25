@@ -14,7 +14,7 @@ const locations = [
     -77.309504,
   ],
   [
-    "Marine Corps Base Cample Lejeune North Carolina </br> Enlisted Marines: 175,980 </br> Marine Officers: 5,759  </br> Tank Count: 98,550 </br> F18 Count: 44,987 </br> ",
+    "Marine Corps Base Camp Lejeune North Carolina </br> Enlisted Marines: 175,980 </br> Marine Officers: 5,759  </br> Tank Count: 98,550 </br> F18 Count: 44,987 </br> ",
     34.5836,
     -77.3604,
   ],
