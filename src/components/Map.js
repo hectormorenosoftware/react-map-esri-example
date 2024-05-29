@@ -19,7 +19,7 @@ const locations = [
     -77.3604,
   ],
   [
-    "U.S. Marine Corps Barracks <br> Washington D.C. <br> Enlisted Marines: 850 <br> Marine Officers: 48 ",
+    "U.S. Marine Corps Barracks <br> Enlisted Marines: 850 <br> Marine Officers: 48 ",
     38.879487,
     -76.994518,
   ],
