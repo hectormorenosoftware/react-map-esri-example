@@ -4,24 +4,44 @@ const token =
   "pk.eyJ1IjoiaG1zb2Z0d2FyZSIsImEiOiJja3dhdTVrajkzc3MxMzFsdDlmY3lyNmxlIn0.42tPdvzfSOmjptJzkrrNvA";
 const locations = [
   [
-    "Marine Corps Base Camp Pendleton California </br> Enlisted Marines: 250,000 </br> Marine Officers: 12,400 </br> Tank Count: 487,550 </br> F18 Count: 124,987 </br> ",
+    "Marine Corps Base Camp Pendleton California <br> Enlisted Marines: 250,000 <br> Marine Officers: 12,400 <br> Tank Count: 487,550 <br> F18 Count: 124,987 <br> ",
     33.291687,
     -117.392729,
   ],
   [
-    "Marine Corps Base Quantico Virginia </br> Enlisted Marines: 158,000 </br> Marine Officers: 7,534 </br> Tank Count: 48,550 </br> F18 Count: 24,987 </br> ",
+    "Marine Corps Base Quantico Virginia <br> Enlisted Marines: 158,000 <br> Marine Officers: 7,534 <br> Tank Count: 48,550 <br> F18 Count: 24,987 <br> ",
     38.5109,
     -77.309504,
   ],
   [
-    "Marine Corps Base Camp Lejeune North Carolina </br> Enlisted Marines: 175,980 </br> Marine Officers: 5,759  </br> Tank Count: 98,550 </br> F18 Count: 44,987 </br> ",
+    "Marine Corps Base Camp Lejeune North Carolina <br> Enlisted Marines: 175,980 <br> Marine Officers: 5,759  <br> Tank Count: 98,550 <br> F18 Count: 44,987 <br> ",
     34.5836,
     -77.3604,
   ],
   [
-    "U.S. Marine Corps Barracks </br> Washington D.C. </br> Enlisted Marines: 850 </br> Marine Officers: 48 ",
+    "U.S. Marine Corps Barracks <br> Washington D.C. <br> Enlisted Marines: 850 <br> Marine Officers: 48 ",
     38.879487,
     -76.994518,
+  ],
+  [
+    "Marine Corps Recruit Depot <br> Enlisted Marines: 300 <br> Marine Officers: 10 <br>",
+    32.74055,
+    -117.197728,
+  ],
+  [
+    "Officer Candidate School <br> Enlisted Marines: 400 <br> Marine Officers: 40 <br>",
+    38.496002,
+    -77.312728,
+  ],
+  [
+    "SOI West <br> Camp San Onofre <br> Enlisted Marines: 840 <br> Marine Officers: 40 <br>",
+    33.392275,
+    -117.511464,
+  ],
+  [
+    "3rd Batallion 5th Marines Command Post <br> Enlisted Marines: 1400 <br> Marine Officers: 40 <br>",
+    33.424063,
+    -117.552863,
   ],
 ];
 var marker = null;
